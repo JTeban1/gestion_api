@@ -1,0 +1,38 @@
+{
+  "name": "user-management-crud",
+  "version": "1.0.0",
+  "description": "A modern user management CRUD application built with Materialize CSS and Vanilla JavaScript",
+  "main": "pages/index.html",
+  "scripts": {
+    "server": "json-server --watch server/db.json --port 3000",
+    "dev": "json-server --watch server/db.json --port 3000",
+    "start": "json-server --watch server/db.json --port 3000",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "crud",
+    "user-management",
+    "materialize-css",
+    "javascript",
+    "rest-api",
+    "json-server",
+    "material-design"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/user-management-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/user-management-crud/issues"
+  },
+  "homepage": "https://github.com/yourusername/user-management-crud#readme"
+}

@@ -1,0 +1,79 @@
+/* User Management CRUD App Styles */
+
+.main-container {
+    padding: 20px 0;
+}
+
+.user-card {
+    transition: transform 0.3s ease;
+}
+
+.user-card:hover {
+    transform: translateY(-5px);
+}
+
+.fab-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.search-container {
+    margin-bottom: 30px;
+}
+
+.stats-container {
+    margin-bottom: 30px;
+}
+
+.gender-chip {
+    margin: 5px;
+}
+
+.balance-positive {
+    color: #4caf50;
+}
+
+.balance-negative {
+    color: #f44336;
+}
+
+.active-status {
+    color: #4caf50;
+}
+
+.inactive-status {
+    color: #f44336;
+}
+
+.modal {
+    max-height: 90%;
+}
+
+.modal-content {
+    padding: 24px;
+}
+
+.loading-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 50px;
+    color: #9e9e9e;
+}
+
+.empty-state i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width : 468px) {
+    .brand-logo {
+        font-size: 1.6rem;  
+    }
+}
